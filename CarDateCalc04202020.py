@@ -1,0 +1,7 @@
+print("Find out how old your car is by entering the year it was made? ")
+carAge = input()
+carToday = 2020 - int(carAge)
+print("Today your car is " + str(int(carToday)) + " years old!")
+print("Next year your car will be " + str(int(carToday) + 1) + " years old!")
+print("In 5 years your car will be " + str(int(carToday) + 5) + " years old!")
+print("In 10 your car will be " + str(int(carToday) + 10) + " years old!")
